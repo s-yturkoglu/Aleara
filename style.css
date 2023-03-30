@@ -9,14 +9,14 @@ button {
     background-color: white;
     border-color: #8a4cc8;
     border-style: solid;
-    padding: 1% 1%;
+    padding: 1% 1.2%;
     border-radius: .1%;
     transition-duration: 0.4s;
 }
 
 button:hover {
     color: white;
-    background-color: #8a4cc8;
+    background-color: rgb(198, 154, 241);
     border-color: white;
     border-style: solid;
 }
@@ -28,8 +28,18 @@ button:active {
     border-style: solid;
 }
 
+#value-proposition {
+    text-align: center;
+}
+
+#scroll-tip {
+    color: rgb(198, 154, 241);
+}
+
 #banner {
     background-color: white;
+    color: rgb(229, 211, 247);
+    text-align: center;
     padding: 100%, 0.05%;
 }
 
@@ -41,6 +51,11 @@ button:active {
 
 #slogan {
     text-align: center;
+}
+
+#pitch {
+    color: black;
+    font-size: 100%;
 }
 
 #benefits {
