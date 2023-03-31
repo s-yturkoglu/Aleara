@@ -90,8 +90,8 @@ li a:hover:not(.current) {
 }
 
 #pitch {
-    color: black;
-    
+    color: rgb(198, 154, 241);
+    font-size: 3vh;    
 }
 
 #benefits {
