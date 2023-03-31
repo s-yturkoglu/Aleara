@@ -1,7 +1,7 @@
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 200%;
     background-color: rgb(249, 244, 250);
+    margin: 0;
 }
 
 button {
@@ -28,38 +28,73 @@ button:active {
     border-style: solid;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+li a:hover:not(.current) {
+    background-color:rgb(229, 211, 247);
+}
+
+.current {
+    background-color:rgb(198, 154, 241);
+}
+
+#intro {
+    text-align: center;
+}
+
 #value-proposition {
     text-align: center;
 }
 
 #scroll-tip {
     color: rgb(198, 154, 241);
+    font-size: 5vh;
 }
 
 #banner {
     background-color: white;
     color: rgb(229, 211, 247);
     text-align: center;
-    padding: 100%, 0.05%;
+    
 }
 
 #title {
     color: #8a4cc8;
     text-align: center;
-    font-size: 300%;
+    font-size: 15vh;
 }
 
 #slogan {
     text-align: center;
+    font-size: 5vh;
 }
 
 #pitch {
     color: black;
-    font-size: 100%;
+    
 }
 
 #benefits {
     background-color: rgb(229, 211, 247);
-    color: gray;
-    font-size: 80%;
+    font-size: 4vh;
 }
