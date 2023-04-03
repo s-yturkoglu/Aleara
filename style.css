@@ -58,6 +58,14 @@ li a:hover:not(.current) {
     background-color:rgb(198, 154, 241);
 }
 
+.lfloat {
+
+}
+
+.rfloat {
+
+}
+
 #intro {
     text-align: center;
 }
@@ -79,7 +87,6 @@ li a:hover:not(.current) {
     background-color: white;
     color: rgb(229, 211, 247);
     text-align: center;
-    
 }
 
 #title {
@@ -96,7 +103,6 @@ li a:hover:not(.current) {
 #pitch {
     color: rgb(198, 154, 241);
     font-size: calc(10px + 1.5vh);
-
 }
 
 #benefits {
