@@ -109,3 +109,9 @@ li a:hover:not(.current) {
     background-color: rgb(229, 211, 247);
     font-size: 4vh;
 }
+
+#content {
+    background-color: white;
+    margin: calc(10px + 10vh) 10vw;
+    padding: 2vh 2vw;
+}
