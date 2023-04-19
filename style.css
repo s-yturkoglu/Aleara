@@ -114,4 +114,6 @@ li a:hover:not(.current) {
     background-color: white;
     margin: calc(10px + 10vh) 10vw;
     padding: 2vh 2vw;
+    display: flex;
+    justify-content: space-around;
 }
