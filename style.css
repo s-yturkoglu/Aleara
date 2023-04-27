@@ -28,6 +28,14 @@ button:active {
     border-style: solid;
 }
 
+a {
+    color: #8a4cc8;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    text-decoration: none;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -56,14 +64,6 @@ li a:hover:not(.current) {
 
 .current {
     background-color:rgb(198, 154, 241);
-}
-
-.lfloat {
-
-}
-
-.rfloat {
-
 }
 
 #intro {
@@ -127,6 +127,7 @@ li a:hover:not(.current) {
 #profile-left {
     margin:  0.5vh 5vw;
     text-align: left;
+    width: 10vw;
 }
 
 #projects-container {
@@ -150,4 +151,59 @@ li a:hover:not(.current) {
     background-color: rgb(198, 154, 241);
     border: 1px rgb(198, 154, 241) solid;
     color:rgb(198, 154, 241);
+}
+
+.product {
+    width: 15vw;
+    height: 30vh;
+    border: 1px rgb(198, 154, 241) solid;
+    padding: 1vw 1vh;
+}
+
+.product-cover {
+    width: 15vw;
+    height: 20vh;
+}
+
+.product-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.profile-picture {
+    width: 30%;
+    height: 30%;
+    margin: 0vh 1vw 0vh 0vw
+}
+
+#profile-header {
+    display: flex;
+}
+
+.project {
+    width: 30vw;
+    height: 30vh;
+    border: 1px rgb(198, 154, 241) solid;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1vw;
+}
+
+.project-text {
+    margin: 0vw 0vh;
+}
+
+.project-cover {
+    width: 20vw;
+    height: 25vh;
+}
+
+.project-photo {
+    width: 8vw;
+    height: 8vh;
+}
+
+.project-timeline-preview {
+    width: 8vw;
 }
