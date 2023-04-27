@@ -68,6 +68,7 @@ li a:hover:not(.current) {
 
 #intro {
     text-align: center;
+    height: 80vh;
 }
 
 #space {
@@ -110,7 +111,7 @@ li a:hover:not(.current) {
     font-size: 4vh;
 }
 
-#content {
+.content {
     background-color: white;
     margin: calc(10px + 10vh) 10vw;
     padding: 2vh 2vw;
