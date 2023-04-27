@@ -127,7 +127,7 @@ li a:hover:not(.current) {
 #profile-left {
     margin:  0.5vh 5vw;
     text-align: left;
-    width: 10vw;
+    width: calc(100px + 5vw);
 }
 
 #projects-container {
@@ -172,8 +172,8 @@ li a:hover:not(.current) {
 }
 
 .profile-picture {
-    width: 30%;
-    height: 30%;
+    width: calc(50px + 0vw);
+    height: calc(50px + 0vw);
     margin: 0vh 1vw 0vh 0vw
 }
 
@@ -182,8 +182,8 @@ li a:hover:not(.current) {
 }
 
 .project {
-    width: 30vw;
-    height: 30vh;
+    width: calc(250px + 10vw);
+    height: calc(250px + 5vh);
     border: 1px rgb(198, 154, 241) solid;
     display: flex;
     justify-content: space-evenly;
@@ -195,15 +195,19 @@ li a:hover:not(.current) {
 }
 
 .project-cover {
-    width: 20vw;
-    height: 25vh;
+    width: calc(100px + 11vw);
+    height: calc(100px + 11vh);
 }
 
 .project-photo {
-    width: 8vw;
-    height: 8vh;
+    width: calc(50px + 2vw);
+    height: calc(50px + 2vw);
 }
 
 .project-timeline-preview {
-    width: 8vw;
+    width: calc(200px + 21vw);
+}
+
+.resizing-text {
+    font-size: calc(15px + 0.1vw);
 }
