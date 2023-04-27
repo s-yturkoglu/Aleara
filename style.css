@@ -116,3 +116,38 @@ li a:hover:not(.current) {
     margin: calc(10px + 10vh) 10vw;
     padding: 2vh 2vw;
 }
+
+.content-column {
+    background-color: white;
+    margin: calc(10px + 10vh) 10vw;
+    padding: 2vh 2vw;
+    display: flex;
+}
+
+#profile-left {
+    margin:  0.5vh 5vw;
+    text-align: left;
+}
+
+#projects-container {
+    margin: 0.5vh 5vw;
+    text-align: left;
+}
+
+#archived-projects {
+    background-color: none;
+    border: 1px rgb(198, 154, 241) solid;
+    color:rgb(198, 154, 241);
+}
+
+#archived-projects:hover {
+    background-color: rgb(229, 211, 247);
+    border: 1px rgb(198, 154, 241) solid;
+    color:rgb(198, 154, 241);
+}
+
+#archived-projects:active {
+    background-color: rgb(198, 154, 241);
+    border: 1px rgb(198, 154, 241) solid;
+    color:rgb(198, 154, 241);
+}
