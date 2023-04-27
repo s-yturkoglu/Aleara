@@ -160,3 +160,21 @@ li a:hover:not(.current) {
     border: 1px rgb(198, 154, 241) solid;
     color:rgb(198, 154, 241);
 }
+
+.product {
+    width: 15vw;
+    height: 30vh;
+    border: 1px rgb(198, 154, 241) solid;
+    padding: 1vw 1vh;
+}
+
+.product-cover {
+    width: 15vw;
+    height: 20vh;
+}
+
+.product-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
