@@ -28,6 +28,14 @@ button:active {
     border-style: solid;
 }
 
+a {
+    color: #8a4cc8;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    text-decoration: none;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -127,6 +135,7 @@ li a:hover:not(.current) {
 #profile-left {
     margin:  0.5vh 5vw;
     text-align: left;
+    width: 10vw;
 }
 
 #projects-container {
