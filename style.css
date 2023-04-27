@@ -66,14 +66,6 @@ li a:hover:not(.current) {
     background-color:rgb(198, 154, 241);
 }
 
-.lfloat {
-
-}
-
-.rfloat {
-
-}
-
 #intro {
     text-align: center;
     height: 80vh;
@@ -177,4 +169,41 @@ li a:hover:not(.current) {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.profile-picture {
+    width: 30%;
+    height: 30%;
+    margin: 0vh 1vw 0vh 0vw
+}
+
+#profile-header {
+    display: flex;
+}
+
+.project {
+    width: 30vw;
+    height: 30vh;
+    border: 1px rgb(198, 154, 241) solid;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1vw;
+}
+
+.project-text {
+    margin: 0vw 0vh;
+}
+
+.project-cover {
+    width: 20vw;
+    height: 25vh;
+}
+
+.project-photo {
+    width: 8vw;
+    height: 8vh;
+}
+
+.project-timeline-preview {
+    width: 8vw;
 }
