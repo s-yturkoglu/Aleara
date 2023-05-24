@@ -7,8 +7,7 @@ body {
 button {
     color: #8a4cc8;
     background-color: white;
-    border-color: #8a4cc8;
-    border-style: solid;
+    border-style: none;
     padding: 1% 1.2%;
     border-radius: .1%;
     transition-duration: 0.4s;
