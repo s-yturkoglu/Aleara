@@ -4,28 +4,30 @@ body {
     margin: 0;
 }
 
+#logo-large {
+    width: 50%;
+    max-width: 280px;
+    height: auto;
+}
+
 button {
     color: #8a4cc8;
     background-color: white;
-    border-color: #8a4cc8;
-    border-style: solid;
-    padding: 1% 1.2%;
-    border-radius: .1%;
+    border-style: none;
+    min-width: 10px;
+    min-height: 10px;
+    padding: 1vw 1vh;
     transition-duration: 0.4s;
 }
 
 button:hover {
     color: white;
     background-color: rgb(198, 154, 241);
-    border-color: white;
-    border-style: solid;
 }
 
 button:active {
     color: white;
     background-color: #8a4cc8;
-    border-color: white;
-    border-style: solid;
 }
 
 a {
@@ -42,7 +44,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: white;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
 }
@@ -68,11 +70,10 @@ li a:hover:not(.current) {
 
 #intro {
     text-align: center;
-    height: 80vh;
 }
 
 #space {
-    padding: 4vh 1vw;
+    padding: 3vh 1vw;
 }
 
 #value-proposition {
@@ -93,17 +94,18 @@ li a:hover:not(.current) {
 #title {
     color: #8a4cc8;
     text-align: center;
-    font-size: 15vh;
+    font-size: 16vh;
+    margin: 10px 15px;
 }
 
 #slogan {
     text-align: center;
-    font-size: 5vh;
+    font-size: 4vh;
 }
 
 #pitch {
     color: rgb(198, 154, 241);
-    font-size: calc(10px + 1.5vh);
+    font-size: calc(10px + 1.3vh);
 }
 
 #benefits {
@@ -124,10 +126,17 @@ li a:hover:not(.current) {
     display: flex;
 }
 
+.content-resize {
+    background-color: white;
+    margin: calc(10px + 10vh) 10vw;
+    padding: 2vh 2vw;
+    font-size: calc(12px + 0.1vh);
+}
+
 #profile-left {
     margin:  0.5vh 5vw;
     text-align: left;
-    width: 10vw;
+    width: calc(100px + 5vw);
 }
 
 #projects-container {
@@ -155,7 +164,7 @@ li a:hover:not(.current) {
 
 .product {
     width: 15vw;
-    height: 30vh;
+    height: 35vh;
     border: 1px rgb(198, 154, 241) solid;
     padding: 1vw 1vh;
 }
@@ -172,9 +181,10 @@ li a:hover:not(.current) {
 }
 
 .profile-picture {
-    width: 30%;
-    height: 30%;
-    margin: 0vh 1vw 0vh 0vw
+    width: calc(50px + 0vw);
+    height: calc(50px + 0vw);
+    margin: 0vh 1vw 0vh 0vw;
+    border-radius: 50%;
 }
 
 #profile-header {
@@ -182,8 +192,8 @@ li a:hover:not(.current) {
 }
 
 .project {
-    width: 30vw;
-    height: 30vh;
+    width: calc(250px + 10vw);
+    height: calc(250px + 5vh);
     border: 1px rgb(198, 154, 241) solid;
     display: flex;
     justify-content: space-evenly;
@@ -195,15 +205,19 @@ li a:hover:not(.current) {
 }
 
 .project-cover {
-    width: 20vw;
-    height: 25vh;
+    width: calc(100px + 11vw);
+    height: calc(100px + 11vh);
 }
 
 .project-photo {
-    width: 8vw;
-    height: 8vh;
+    width: calc(50px + 2vw);
+    height: calc(50px + 2vw);
 }
 
 .project-timeline-preview {
-    width: 8vw;
+    width: calc(200px + 21vw);
+}
+
+.resizing-text {
+    font-size: calc(15px + 0.1vw);
 }
