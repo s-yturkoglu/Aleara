@@ -4,27 +4,30 @@ body {
     margin: 0;
 }
 
+#logo-large {
+    width: 50%;
+    max-width: 300px;
+    height: auto;
+}
+
 button {
     color: #8a4cc8;
     background-color: white;
     border-style: none;
-    padding: 1% 1.2%;
-    border-radius: .1%;
+    min-width: 10px;
+    min-height: 10px;
+    padding: 1vw 1vh;
     transition-duration: 0.4s;
 }
 
 button:hover {
     color: white;
     background-color: rgb(198, 154, 241);
-    border-color: white;
-    border-style: solid;
 }
 
 button:active {
     color: white;
     background-color: #8a4cc8;
-    border-color: white;
-    border-style: solid;
 }
 
 a {
@@ -41,7 +44,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: white;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
 }
@@ -67,7 +70,6 @@ li a:hover:not(.current) {
 
 #intro {
     text-align: center;
-    height: 80vh;
 }
 
 #space {
@@ -92,7 +94,8 @@ li a:hover:not(.current) {
 #title {
     color: #8a4cc8;
     text-align: center;
-    font-size: 15vh;
+    font-size: 18vh;
+    margin: 10px 15px;
 }
 
 #slogan {
@@ -180,7 +183,8 @@ li a:hover:not(.current) {
 .profile-picture {
     width: calc(50px + 0vw);
     height: calc(50px + 0vw);
-    margin: 0vh 1vw 0vh 0vw
+    margin: 0vh 1vw 0vh 0vw;
+    border-radius: 50%;
 }
 
 #profile-header {
